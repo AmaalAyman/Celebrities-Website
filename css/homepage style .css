@@ -1,0 +1,115 @@
+body
+{
+   background-image: url(../img/design_lights_circles_135626_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1
+{
+    color: #f67e7d;
+    margin-left:50px;
+    margin-top:20px;
+    border:1px dotted #ff8c61;
+    border-radius:10px;
+    max-width:200px;
+    padding: 5px 20px;
+}
+
+img
+{
+    width:200px;
+    height:200px;
+    border-radius:10px;
+    border-bottom-left-radius:inherit;
+    border-bottom-right-radius:inherit;
+    border-bottom-style: outset;
+    border-color:#264653;
+}
+
+p
+{
+   padding-left:50px;
+}
+
+
+
+span
+{
+   padding-left:5px; 
+}
+
+a
+{
+    color:#FFC7BA;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:#86A3C3;
+}
+div
+{
+    margin-left: 70px;
+    border:3px outset #264653;
+    border-radius:10px;
+    max-width:200px; 
+    display:inline-block;
+}
+ 
+div:hover
+{
+    border-color:#ffb997;
+}
+
+img:hover
+{
+    border-bottom-style: outset;
+     border-color:#ffb997;
+}
+
+h2
+{
+    color:azure;
+    margin-left:50px;
+}
+
+table {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+    height: 50%;
+  display: inline-block;
+  float: right;
+  margin-right: 160px;
+    margin-top: 20px;
+}
+
+td, th {
+  border: 1px solid #026178;
+  text-align: left;
+  padding: 8px;
+  background-color: #FBA490;
+    color: #044855;
+}
+
+tr:nth-child(even) {
+  background-color: #FBA490;
+}
+
+button
+{
+    float: right;
+    margin-right: 350px;
+    background-color: #FD8060;
+    padding: 5px 20px;
+    border: 1px #FD8060 solid;
+    border-radius: 10px;
+}
+
+button:hover
+{
+    background-color: inherit;
+    color: white;
+}

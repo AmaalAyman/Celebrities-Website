@@ -1,0 +1,170 @@
+/*backgroung style*/
+body{
+    background-image:url('../Img/futuristic-technology-abstract-background-beautiful-footage-087637123_prevstill.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/* style of h1 */
+h1
+{
+    color:#1D3557;
+    font-family: fantasy;
+    font-style:oblique;
+    font-weight:bolder;
+    padding-left:40%;
+    padding-top:10px;
+}
+
+h1:hover
+{
+    color:cadetblue;
+    
+}
+
+h2
+{
+    color:cornflowerblue;
+    font-family: fantasy;
+    font-style:italic;
+    margin-left:150px;
+}
+
+/* style of inputs for email */
+input[type="email"]
+{
+    background-color:inherit;
+    border:0.5px solid #457B9D;
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+    border-left:inherit;
+    margin-left:30%;
+    margin-top:30px;
+    padding:10px 40px;
+    color:#7584AD;
+}
+/* style of inputs for password */
+ input[type="password"]
+{
+    background-color:inherit;
+    border:0.2px solid #457B9D;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    border-right:inherit;
+    margin-left:15%;
+    padding:10px 45px;
+    color:#7584AD;
+}
+/* style of button */
+input[type="button"]
+{
+    background-color:inherit;
+    border:0.2px solid #457B9D;
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+    border-left:inherit;
+    margin-left:45%;
+    padding:10px 62px;
+    color:#AED1D6;
+}
+
+input[name="inputs"]:hover
+{
+    border-style: dashed;
+    border-color:#843b62;
+}
+input[type="email"]:hover
+{
+    border-left:inherit;
+}
+
+input[type="password"]:hover
+{
+    border-right:inherit;
+}
+
+input[type="button"]:hover
+{
+    color:#20639B;
+    border-style: dotted;
+    border-left:10px;
+}
+/* style of checkbox*/
+input[type="checkbox"]
+{
+    margin-left:35%;
+    margin-top:20px;
+    padding-left:5px;
+    border-color:blue;
+}
+/* style p */
+p
+{
+    display: inline;
+    color:#bfdce7;
+    
+}
+/* style submit*/
+input[type="submit"]
+{
+    background-color:inherit;
+    border:0.5px dotted #457B9D;
+    border-radius:20px;
+    margin-left:30%;
+    margin-top:30px;
+    padding:10px 62px;
+    color:#1D1E4E;
+}
+
+span
+{
+    color:#355C7D;
+    margin-left:45%;
+    margin-top:30px;
+    font-weight: 400;
+    
+}
+
+div
+{
+    background-color: white;
+    border-radius:10px;
+    max-width:400px;
+    max-height:900px;
+    margin-left:30%;
+    margin-top:5%;
+    padding-bottom: 50px;
+}
+
+a[title="Facebook"]
+{
+    background-color:#2f3180;
+    margin-left:20%;
+    margin-top:10px;
+    color:white;
+    font-size:bold;
+    padding:5px 50px;
+    text-decoration:none;
+}
+
+a[title="Instagram"]
+{
+    background-color:deeppink;
+    margin-left:20%;
+    margin-top:10px;
+    color:white;
+    font-size:bold;
+    padding:5px 50px;
+    text-decoration:none;
+}
+
+a[title="Twitter"]
+{
+    background-color:cornflowerblue;
+    margin-left:20%;
+    margin-top:10px;
+    color:white;
+    font-size:bold;
+    padding:5px 60px;
+    text-decoration:none;
+}

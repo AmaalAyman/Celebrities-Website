@@ -1,0 +1,320 @@
+/* style body*/
+body
+{
+    background-image: url('../img/pexels-photo-1103970.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* style for h1*/
+h1
+{
+   color:cadetblue;
+   padding-left:350px;
+   margin-top:50px;
+    text-shadow: 3px 2px black;
+}
+
+/* style img*/
+img
+{
+    width:200px;
+    height:200px;
+    border-radius:10px;
+    border-color:#264653;
+    float:left;
+    margin-left:100px;
+}
+
+h7
+{
+    font-size: 150%;
+    color:#CDE0C9;
+    background-color: darkslategrey;
+    opacity: 0.7;
+    position: fixed;
+    padding: 5px 1300px 5px 100px;
+    margin-top: -50px;
+    margin-left: -10px;
+}
+
+h3
+{
+    display:inline;
+    padding-left:50px;
+    color:#026178; 
+}
+
+/* Div style */
+.info,.family
+{
+    margin-left: 110px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border:2px solid #394F6B;
+    max-width:200px; 
+    float: left;
+    
+    
+}
+
+button
+{
+    background-color: #5BA8A0;
+    border:1px #3B5284 dotted;
+    border-radius: 10px;
+    color: black;
+   float: left;
+   margin-left: 120px;
+    padding: 5px 10px;
+}
+
+h4
+{
+    padding-left:45px;
+    color:#388497;
+}
+
+h5
+{
+    padding-left:70px;
+    color:#8281A0;
+}
+
+h2
+{
+    padding-left:30px;
+    padding-right: 13px;
+    color:#044855;
+}
+
+hr
+{
+    width:900px;
+    margin-left:300px;
+    border-color:#2D3B41;
+}
+
+p
+{
+     padding-left:350px;
+    color:#2C6975;
+}
+
+span
+{
+    float: right;
+    display: inline;
+   margin-top: 20px;
+}
+
+h6
+{
+    margin-right:350px;
+    font-size: 150%;
+    float: right;
+    color:#0B0742;
+    border:1px dotted black;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+h6:hover
+{
+    background-color: #A5CAD2;
+    color: #4A707A;
+}
+
+h8
+{
+    font-size: 170%;
+    font-family: fantasy;
+    color:#384E78;
+    margin-left:20px;   
+}
+
+h9
+{
+    font-size: 100%;
+    color:ghostwhite;
+    max-width: 150px;
+}
+
+img[alt="microsoft"]
+{
+    width: 70px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+img[alt="M"]
+{
+     width: 70px;
+    height: 50px;
+    margin-left:15px;
+}
+
+img[alt="p"]
+{
+     width: 70px;
+    height: 50px;
+    margin-left:15px;
+}
+
+
+img[alt="Bg"]
+{
+    margin-left:350px;
+    width: 70px;
+    height: 50px;
+}
+
+img[ name="SBG"]
+{
+    margin-left:20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 400px;
+}
+
+
+img[name="SBG"]:hover
+{
+    opacity:0.7;
+}
+
+
+img[name="WBG"]
+{
+    margin-left:20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 400px;
+}
+
+img[name="WBG"]:hover
+{
+    opacity:0.7;
+}
+
+
+h10
+{
+    background-color: #2C6975;
+    font-size:150%;
+    color:#CDE0C9;
+    padding: 7px 10px;
+    border:2px groove #4A707A ;
+    font-family: monospace;
+    margin-left: 350px;
+    
+}
+
+
+ul
+{
+    font-size:100%;
+    max-width:700px;
+    color:#1F2F98;
+    margin-left:300px;
+    list-style:inside;
+}
+
+li
+{
+    border:1px solid #0B0742;
+    padding:5px 20px;
+    border-radius:10px;
+    
+    
+}
+
+ol
+{
+    font-size:100%;
+    max-width:550px;
+    color:#120C6E;
+    margin-left:410px;
+    list-style:inside;
+    margin-top: 10px;
+}
+
+h11
+{
+    background-color:#A5CAD2;
+    font-size:200%;
+    color:#6C8CBF;
+    margin-left:350px;
+    padding: 7px 20px;
+    border:1px groove #4A707A ;
+    font-style: oblique;
+}
+
+h12
+{
+    display: inline-block;
+}
+
+img[alt="WBG"]
+{
+    float: right;
+    width: 275px;
+    height: 300px;
+    
+}
+
+h13
+{
+    font-size:170%;
+    float: right;
+    margin-right: 50px;
+    border:2px groove #0066CC;
+    background-color: #009999;
+    border-radius: 10px;
+    color:#CCEAF0;
+    padding: 5px 15px;
+    font-style: oblique;
+}
+
+h14
+{
+     font-size: 130%;
+    color:#205072;
+    margin: 45px auto;
+    max-width: 80px;
+    margin-left:450px;
+    font-family:serif;
+    font-style: oblique;
+}
+
+h15
+{
+    background-color:#044855;
+    color: azure;
+    margin-left: -8px;
+    margin-right: -1500px;
+    padding: 10px 1000px 10px 80px;
+    
+   
+}
+
+input
+{
+    background-color:#5AA7A7;
+    color:black;
+    border-radius: 20%;
+    border:1px black solid;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    padding: 5px 15px;
+}
+
+input:hover
+{
+    background-color: inherit;
+    color: cadetblue;
+    font-family:cursive;
+    border: 1px #264D59 solid;
+     border-radius: 20%;
+}
